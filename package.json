@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://prathammm16.github.io/Pratham-Portfolio",
+  "homepage": "https://prathamm16.github.io/Pratham-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
