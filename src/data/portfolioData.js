@@ -296,7 +296,7 @@ export const projects = [
     status: "Completed",
     github: "https://github.com/PrathamM16",
     demo: "#",
-    medium: "https://medium.com/@pratham",
+    medium: "https://medium.com/@pratham.m1605/analyzing-user-sentiments-on-namma-yatri-app-based-on-real-data-744eed14ae1e",
     featured: true,
   },
   {
