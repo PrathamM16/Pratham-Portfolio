@@ -98,7 +98,7 @@ const About = () => {
                 <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden glass-effect p-2">
                   <div className="absolute inset-0 bg-gradient-to-br from-cyber-blue/20 via-electric-purple/20 to-neon-pink/20 animate-pulse" />
                   <img 
-                    src="/pratham-profile.jpg" 
+                    src={`${import.meta.env.BASE_URL}pratham-profile.jpg`}
                     alt="Pratham M - Software Engineer"
                     className="relative w-full h-full object-cover rounded-xl"
                     loading="lazy"

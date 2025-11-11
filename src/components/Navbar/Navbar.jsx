@@ -29,7 +29,7 @@ const Navbar = ({ darkMode, toggleTheme }) => {
   const handleDownloadResume = () => {
     // Download the resume PDF
     const link = document.createElement('a')
-    link.href = '/Pratham_Resume.pdf'
+    link.href = `${import.meta.env.BASE_URL}Pratham_Resume.pdf`
     link.download = 'Pratham_Resume.pdf'
     link.click()
   }

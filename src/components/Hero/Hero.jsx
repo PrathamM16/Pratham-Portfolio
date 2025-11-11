@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full bg-gradient-to-r from-cyber-blue via-electric-purple to-neon-pink p-1 animate-glow">
             <div className="w-full h-full rounded-full bg-deep-space overflow-hidden">
               <img 
-                src="/pratham-profile.jpg" 
+                src={`${import.meta.env.BASE_URL}pratham-profile.jpg`}
                 alt="Pratham M - Software Engineer" 
                 className="w-full h-full object-cover rounded-full"
                 loading="eager"
