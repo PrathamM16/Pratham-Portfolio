@@ -1,0 +1,81 @@
+# 🚀 DEPLOY NOW - Copy & Paste These Commands
+
+## Run these commands in PowerShell (one by one):
+
+### Step 1: Install gh-pages
+npm install --save-dev gh-pages
+
+### Step 2: Commit configuration
+git add .
+git commit -m "Configure GitHub Pages deployment with HTTPS"
+
+### Step 3: Push to GitHub
+git push origin main
+
+### Step 4: Enable GitHub Pages
+# Open this URL in your browser:
+# https://github.com/PrathamM16/Pratham-Portfolio/settings/pages
+# 
+# Then:
+# 1. Under "Build and deployment"
+# 2. Source: Select "GitHub Actions"
+# 3. Click Save
+
+### Step 5: Wait for GitHub Actions to complete
+# Open this URL to watch deployment:
+# https://github.com/PrathamM16/Pratham-Portfolio/actions
+#
+# Wait for the green checkmark ✅ (takes 2-3 minutes)
+
+### Step 6: Visit your live site!
+# https://prathammm16.github.io/Pratham-Portfolio
+
+---
+
+## ✅ Your Portfolio will be live at:
+https://prathammm16.github.io/Pratham-Portfolio
+
+## 🔒 Automatic HTTPS - No configuration needed!
+
+---
+
+## 🎯 What I've Set Up For You:
+
+✅ package.json - Added homepage URL and deploy scripts
+✅ vite.config.js - Configured base path for GitHub Pages
+✅ .github/workflows/deploy.yml - Automatic deployment workflow
+✅ HTTPS enabled - Free SSL certificate from GitHub
+
+---
+
+## 📝 Important Notes:
+
+1. Your repository is: https://github.com/PrathamM16/Pratham-Portfolio
+2. Branch must be: main (not master)
+3. Files will deploy from: dist folder
+4. Deployment is automatic after first setup
+
+---
+
+## 🔄 Future Updates:
+
+Every time you want to update your portfolio:
+
+git add .
+git commit -m "Update portfolio content"
+git push origin main
+
+GitHub Actions will automatically rebuild and deploy! ⚡
+
+---
+
+## 📱 Share This URL:
+
+**Portfolio**: https://prathammm16.github.io/Pratham-Portfolio
+
+Add this to:
+- LinkedIn profile
+- GitHub profile README
+- Resume
+- Email signature
+- Business cards
